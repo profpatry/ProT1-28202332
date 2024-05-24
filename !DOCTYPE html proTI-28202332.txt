@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Tramo 1</title>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+<body>
+    <header>
+        Encabezado de la página
+    </header>
+  <header>
+    <div class="logo">
+        <img src="   .png" alt="Logo de la empresa" style="width: 150px; height: auto;">
+    </div>
+</header>
+
+<style>
+/* Estilos para las imágenes */
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; 
+    border: 3px solid #69bd45; /* Contorno de 3px con color verde (#69bd45) alrededor de la imagen */
+}
+</style>
+    <nav>
+        <ul>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.yahoo.com">Yahoo</a></li>
+            <li><a href="https://talentosdigitales.ar/">Talentos Digitales</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="contenedor">
+            <p class="textoDestacado">
+                Somos una empresa familiar que se dedica ala venta de ropas.
+            </p>
+            <p>para damas y niños tu pregunta no nos molestan.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            VENI A VISITARNOS
+        </div>
+    </footer>
+</body>
+</html>
